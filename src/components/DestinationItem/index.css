@@ -1,0 +1,15 @@
+.cardList {
+  list-style: none;
+  width: 250px;
+  font-family: Open Sans;
+  padding: 5px;
+}
+.cardImg {
+  height: 150px;
+  width: 200px;
+}
+.cardPara {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bolder;
+}

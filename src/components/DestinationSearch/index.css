@@ -1,0 +1,57 @@
+.bgContainer {
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+.searchCard {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+.searchInput {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 19px;
+  border-radius: 8px;
+}
+.searchImage {
+  padding: 5px;
+  height: 40px;
+  width: 40px;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 70vh;
+  width: 80vw;
+  padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .bgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 50px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 90vw;
+  }
+}
